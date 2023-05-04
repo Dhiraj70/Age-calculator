@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container {
+    background: linear-gradient(white, rgb(98, 68, 68), green);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 20px;
+    box-shadow: 5px 15px 30p rgba(128, 128, 128, 0, 0.384);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-size: large;
+    font-weight: 500;
+    margin-right: 9px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    font-size: large;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btns {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul {
+    font-size: large;
+}
+
+li::marker {
+    color: grey;
+}
